@@ -1,0 +1,7 @@
+var base:Point   = new Point(200,100);
+var target:Point = new Point(100,100);
+var ref:Point    = new Point();
+//------------------------------------------//
+ref.x = -(target.x - base.x) + base.x;
+ref.y = -(target.y - base.y) + base.y;
+//------------------------------------------//
